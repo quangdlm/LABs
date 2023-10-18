@@ -1,0 +1,66 @@
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.dark_container{
+    background-color: #0c0c0c;
+}
+.dark_text_background{
+    background: linear-gradient(45deg, #13001e, #890014) !important;
+}
+.zoom {
+    transition: transform 0.3s; /* Thêm hiệu ứng chuyển đổi */
+  }
+  
+  /* Định nghĩa hiệu ứng phóng to khi hover */
+  .zoom:hover {
+    transform: scale(1.1); /* Phóng to 1.2 lần kích thước ban đầu */
+  }
+.image{
+    position: relative;
+    height: 500px;
+    max-width: 350px;
+    overflow: hidden;
+    
+}
+.film_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+.text{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    padding: 100px 0 10px 10px;
+    background: linear-gradient(0deg, black, transparent);
+}
+.title{
+    color: white;
+    font-weight: bold;
+}
+.details{
+    color: #a5a5a5;
+}
+.page{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+}
+.page_title{
+    padding: 50px;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(45deg, #fab1c1, #401d56);
+}

@@ -1,0 +1,35 @@
+.film_popup{
+        z-index: 2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        .title{
+                font-size: 20px;
+        }
+        .details{
+                margin-bottom: 10px;
+        }
+        .content{
+                color: white;
+                text-align: justify;
+        }
+        .button{
+                display: flex;
+                gap: 10px;
+                margin-top: 20px;
+                button{
+                        border: 0;
+                        color: white;
+                        padding: 5px 10px;
+                        display: "flex";
+                        justify-content: "center";
+                        align-items: "center";
+                        gap: '10px';
+                }
+        }
+}
