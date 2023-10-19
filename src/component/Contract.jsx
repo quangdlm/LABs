@@ -108,7 +108,10 @@ export default function Contract(){
                 onChange = {handleOnChange}
                 id="content" label="Content" variant="standard" />
                 <Button variant="contained"
-                fullWidth
+                fullWidth   
+                onClick={()=>{
+                    alert("Thành công! Chúng tôi sẽ liên hệ bạn sớm nhất.")
+                }}
                 sx={{
                     margin: '10px',
                     display:'block'
